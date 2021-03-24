@@ -1,0 +1,9 @@
+/*
+Theme Name:     Applifting Child
+Template:       tm-beans
+
+This is the child theme for Beans theme, generated with Generate Child Theme plugin by catchthemes.
+
+Right to Left text support.
+*/
+@import url("../tm-beans/rtl.css");

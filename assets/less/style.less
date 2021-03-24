@@ -1,0 +1,251 @@
+/*
+ * In this file, you may style your site using CSS or LESS as well as overwrite UIkit LESS variables.
+ * Make sure to enable development mode via the Admin->Appearance->Settings option while working on your website. LESS will then be processed on the fly.
+ */
+/* poppins-regular - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/poppins-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/poppins-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+.wp-caption-text {
+	font-size: 14px;
+}
+/* Sidebar Titles */
+#beans-primary-sidebar > div.tm-widget.uk-panel h3.uk-panel-title {
+font-size: 13px;
+font-weight:bold;
+}
+h4.wpzabb-image-grid-item-title {
+display:none!important;
+}
+span.wpzabb-image-grid-item-color {
+background-color:#ff0000!important;
+}
+#menu-item-18384 > a > span > span.quadmenu-icon.dashicons.dashicons-phone.hover.t_1000 {
+color: #ff0000;	
+}
+#menu-item-18384 > a > span > span.quadmenu-icon.dashicons.dashicons-phone.hover.t_1000:hover {
+color: #ff0000;	
+}
+a.confoot {
+color: gray;	
+text-decoration: none;
+}
+a.confoot:hover {
+color: #ff0000;
+}
+#wpforms-submit-18042 {
+border: 1px solid #ff0000;
+border-radius: 5px;
+color: #fff;
+background-color: #ff0000;
+}
+#wpforms-submit-18042:hover {
+border-color: #820000;
+background-color: #820000;
+}
+/* Content Width */
+@utility-container-large-max-width: 1620px;
+div.fl-row.fl-row-full-width {
+width: 100%!important;	
+}
+.tm-article-image {
+text-align: center;
+border-radius: 5px;
+}
+.tm-main {
+margin-bottom: 20px;
+background:#fdfdfd;
+}
+.tm-site-title-tag {
+font-size: 11px;
+text-transform: uppercase;
+}
+h2.uk-article-title,
+h1.uk-article-title {
+font-weight: 300;
+font-size:20px;
+padding-left: 20px;
+text-transform:uppercase;
+color:#fff;
+}
+h1.uk-article-title {
+background: linear-gradient(-45deg, #ab3945, #820000, #e91c63, #ff0000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+h2.uk-article-title {
+font-size: 16px;
+}
+/* Header */
+body {
+	>div.tm-site {
+		>header {
+			padding-top: 12px;
+			padding-bottom: 8px;
+	
+		}
+		
+	}
+}
+body.home {
+	>div.tm-site {
+		>main {
+		 padding-top: 0;
+		}
+		header {
+			>h1 {
+				display: none;
+			}
+		}
+	}
+}
+
+/* Menu */
+nav#beans-primary-navigation {
+margin-top:18px;
+}
+/* Footer
+============================ */
+.tm-bottom {
+background-color: #222;
+padding-top: 50px;
+}
+.tm-footer {
+padding-top: 10px;
+padding-bottom: 10px;
+border-top-color: #313131;
+background-color: #222;
+}
+.uk-width-medium-1-4 ul {
+list-style: none;
+}
+.tm-bottom .menu-categories-container ul li {
+padding-bottom: 10px;
+border-bottom: groove 1px #666;
+}
+.tm-bottom .menu-categories-container ul li:last-child {
+border-bottom: none;	
+}
+.tm-bottom h3.uk-panel-title {
+color: #d7d2e9;
+font-size:15px;
+font-weight: 600;
+text-transform: uppercase;
+padding-bottom:10px;
+}
+.tm-bottom ul {
+padding-left: 0px;
+}
+.tm-bottom ul li {
+margin-top: 16px;
+margin-bottom: 12px;
+}
+.tm-bottom ul li a {
+text-decoration: none;
+}
+#menu-footer {
+	text-align:center;
+	margin: auto;
+    padding-top: 5px;
+	padding-bottom: 10px;
+}
+#menu-footer {
+	>div {
+		>div {
+			ul li {
+				display: inline;
+				padding-left: 6px;
+				padding-right:6px;
+			}
+		}
+	}
+}
+#menu-footer {
+	>div {
+		>div {
+			ul li a {
+			 color: gray;
+			 font-size: 13px;
+			 text-decoration:none;
+			}
+		}
+	}
+}
+#menu-footer {
+	>div {
+		>div {
+			ul li a:hover {
+			 color: #820000;
+			 font-size: 13px;
+	
+			}
+		}
+	}
+}
+#logo-footer {
+text-align:center;
+padding-top: 0px;
+padding-bottom: 15px;
+}
+#widget-footer {
+margin: auto;
+text-align:center;
+
+padding-bottom:15px;
+}
+#logo-footer > div > div.tm-widget.uk-panel.widget_custom_html.custom_html-2 > div > div {
+font-size: 11px;
+text-transform: uppercase;
+color: gray;
+}
+#widget-footer figure > a > img {
+border: solid 5px rgba(185, 185, 185, 0.15);
+border-radius: 5px;
+}
+/* Copyright */
+.tm-sub-footer {
+	font-size: 12px;
+	margin: 8px 0 0 0;
+	padding: 0;
+	width: 100%;
+	text-align: center;
+	clear: both;
+	a {
+		color:#820000;
+		text-decoration: none;
+	}
+	a:hover {
+		color:gray;
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+.footer-image {
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
